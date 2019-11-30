@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/p1-master
+    working_directory: ~/TestCircleCi
     docker:
       - image: circleci/android:api-28-alpha
     environment:
@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+          key: jars-{{ checksum "./app/p1-master/build.gradle" }}-{{ checksum  "./app/p1-master/app/build.gradle" }}
       - run:
          name: Chmod permissions  
          command: sudo chmod +x ./gradlew
