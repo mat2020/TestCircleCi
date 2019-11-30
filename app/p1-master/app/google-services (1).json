@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "23488800903",
+    "firebase_url": "https://application-763ec.firebaseio.com",
+    "project_id": "application-763ec",
+    "storage_bucket": "application-763ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23488800903:android:f06c931f01e3bac1373022",
+        "android_client_info": {
+          "package_name": "com.uottawa.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23488800903-mvu6rtquqsb9m5f4uiu0g3vii66r0s5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARc6GjtvKT_gok0Zoj3cuzOImgKfHjtEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23488800903-mvu6rtquqsb9m5f4uiu0g3vii66r0s5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UltimateClinic</string>
+    <string name="welcomeMessage"><![CDATA[Welcome <firstName>. You are logged in as <Role>.]]></string>
+    <string name="logOutButton">Log Out</string>
+</resources>
