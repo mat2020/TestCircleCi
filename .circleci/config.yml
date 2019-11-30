@@ -18,11 +18,11 @@ jobs:
           command: ./app/p1-master/gradlew dependencies
       - save_cache:
           paths:
-            - ~/.gradle
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+            - ~/./app/p1-master/gradle
+          key: jars-{{ checksum "./app/p1-master/build.gradle" }}-{{ checksum  "./app/p1-master/app/build.gradle" }}
       - run:
           name: Run UnitTest
-          command: ./app/gradlew test
+          command: ./app/p1-master/gradlew test
       - store_artifacts:
           path: app/build/outputs/apk/debug/
           destination: apks/
