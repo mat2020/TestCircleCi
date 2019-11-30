@@ -12,7 +12,7 @@ jobs:
           key: jars-{{ checksum "./app/p1-master/build.gradle" }}-{{ checksum  "./app/p1-master/app/build.gradle" }}
       - run:
          name: Chmod permissions  
-         command: sudo chmod +x ./gradlew
+         command: sudo chmod +x ./app/p1-master/gradlew
       - run:
           name: Download Dependencies
           command: ./gradlew androidDependencies
